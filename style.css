@@ -41,13 +41,13 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-    background-image: url('sua-imagem-de-fundo.jpg');
+    background-color: #8f8f8f13;
     background-size: cover;
     background-position: center;
     min-height: 60vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+
     text-align: center;
     color: #000000;
 }
@@ -55,6 +55,15 @@ nav a:hover {
 /* Features Section */
 .features {
     padding: 50px;
+}
+
+#ffd{
+    text-align: center;
+}
+
+.ico{
+    width: 50px;
+    height: 50px;
 }
 
 .feature-box {
