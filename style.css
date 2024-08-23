@@ -1,0 +1,93 @@
+/* Global Styles */
+body {
+    font-family: 'SF Pro Text', sans-serif; /* Fonte similar à Apple */
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+    color: #333333;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #007AFF;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('sua-imagem-de-fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+}
+
+/* Features Section */
+.features {
+    padding: 50px;
+}
+
+.feature-box {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Benefits Section */
+.benefits {
+    background-color: #F2F2F2;
+    padding: 50px;
+}
+
+/* Footer */
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    /* Adaptações para telas menores */
+    header {
+        padding: 10px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* ... outras adaptações */
+}
