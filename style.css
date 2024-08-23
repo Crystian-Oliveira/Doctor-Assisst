@@ -18,6 +18,26 @@ nav a {
     color: #333;
 }
 
+#botao {
+    /* Estiliza o botão */
+    background-color: #393797;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    position: absolute;
+    top: 6%;
+    right: 3%;
+    
+   
+}
+
+button:hover {
+    background-color: #3e8e41;
+  }
+
 section {
     padding: 20px;
 }
