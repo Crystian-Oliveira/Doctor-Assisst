@@ -1,0 +1,86 @@
+/* styles.css */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #002855; /* Azul marinho escuro */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #004785; /* Tom de azul mais claro */
+  }
+  
+  main {
+    padding: 40px;
+  }
+  
+  section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .paciente-info h2,
+  .ferramentas h2,
+  .informacoes-clinica h2 {
+    font-size: 24px;
+    color: #002855; /* Azul marinho escuro */
+    margin-bottom: 20px;
+  }
+  
+  .ferramenta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .ferramenta img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #002855;
+    color: #fff;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  }
